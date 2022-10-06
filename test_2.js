@@ -10,5 +10,5 @@ for (let key of keys) {
 };
 
 clear.onclick = function () {
- display.textContent = ' ' 
+  display.textContent = ' '
 };
