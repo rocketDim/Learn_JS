@@ -1,3 +1,4 @@
+//keksoFitv1.0
 let timeInMinutes = 180;
 console.log(timeInMinutes / 10);
 let jumps = (timeInMinutes / 10 * 3);
