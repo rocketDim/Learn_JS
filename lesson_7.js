@@ -10,4 +10,5 @@ for (let i = 1; i <= days; i++) {
     } else {
         total += oddDayAmount
     }
+    console.log(total);
 }
