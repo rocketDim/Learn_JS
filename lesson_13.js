@@ -27,5 +27,13 @@ let runGame = function (ruleset, players) {
     return players;
 };
 
+let getWinners = function (players) {
+    let winners = [];
+    return winners;
+}
+
 cats = runGame(gameRuleset, cats);
 console.log(cats);
+
+let tops = getWinners(cats);
+console.log(tops);
