@@ -29,6 +29,10 @@ let runGame = function (ruleset, players) {
 
 let getWinners = function (players) {
     let winners = [];
+    for (let i = 0; i < players.length; i++) {
+        let currentPlayer = players[i];
+        console.log(currentPlayer);
+    };
     return winners;
 }
 
