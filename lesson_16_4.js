@@ -6,4 +6,4 @@ let checkVehicle = function (wheel, weight) {
         return 'Вам здесь не место! Мяу!'
     }
 
-}
+};
