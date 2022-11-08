@@ -19,11 +19,11 @@ body {
     font-family: "Courier", monospace;
 }
 
-.cards li:not(:nth-of-type(4)):not(:first-of-type) {
+.cards li:not(:first-of-type) {
     margin-left: -15px;
 }
 
-.cards li:not(:nth-of-type(4)) {
+.cards li:not(.nine) {
     width: 36px;
     height: 54px;
 }
