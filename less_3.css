@@ -30,18 +30,6 @@ body {
     margin-left: -20px;
 }
 
-ul::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    top: 0;
-    display: block;
-    width: 37px;
-    height: 55px;
-    border: 1px dashed #33bb33;
-    border-radius: 5px;
-}
-
 li:nth-of-type(4n+1) {
     background-color: #ffcc33;
 }
@@ -50,11 +38,11 @@ ul:not(:first-of-type) li:nth-of-type(4n+2) {
     background-color: #0099ff;
 }
 
-selector {
+ul:not(:first-of-type):not(:nth-of-type(3)) li:nth-of-type(4n+4) {
     background-color: #ff3300;
 }
 
-selector {
+ul:nth-of-type(3) li:nth-of-type(3n+8) {
     background-color: #339933;
 }
 
