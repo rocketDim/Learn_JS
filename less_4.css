@@ -1,0 +1,113 @@
+html {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.scene {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    background: none;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+div {
+    display: inline-block;
+    background-color: white;
+}
+
+
+/* горизонтальные элементы */
+.h {
+    width: 50px;
+    height: 10px;
+    position: absolute;
+}
+
+.h1 {
+    bottom: 60px;
+    left: 20px;
+}
+
+.h2 {
+    bottom: 80px;
+    left: 80px;
+}
+
+.h3 {
+    width: 40px;
+    right: 20px;
+    bottom: 40px;
+}
+
+/* вертикальные элементы */
+.v {
+    width: 10px;
+    height: 50px;
+    position: absolute;
+    ;
+    bottom: 40px;
+}
+
+.v1 {
+    left: 20px;
+}
+
+.v2 {
+    left: 60px;
+}
+
+.v3 {
+    left: 100px;
+}
+
+.v4 {
+    right: 110px;
+}
+
+.v5 {
+    right: 70px;
+}
+
+.v6 {
+    right: 50px;
+}
+
+/* уголки */
+.corner-top {
+    background: none;
+    border: 15px solid white;
+    border-top-width: 20px;
+    border-top-color: transparent;
+    border-bottom-width: 0;
+    position: absolute;
+    bottom: 70px;
+    right: 80px;
+}
+
+.corner-bottom {
+    background: none;
+    border: 15px solid transparent;
+    border-top-width: 20px;
+    border-top-color: white;
+    border-bottom-width: 0;
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+}
+
+/* лого */
+.logo {
+    width: 64px;
+    height: 64px;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: absolute;
+    top: 80px;
+    left: 87px;
+}
