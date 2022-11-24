@@ -1,0 +1,61 @@
+/* 1-й квадрат */
+.palette-small {
+    display: flex;
+}
+
+.palette-box:first-child .palette-small {
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.palette-box:first-child .palette-small .color-4 {
+    order: -1;
+    align-self: center;
+}
+
+.palette-box:first-child .palette-small .color-3 {
+    order: 5;
+    align-self: center;
+}
+
+/* 2-й квадрат */
+.palette-box:nth-child(2) .palette-small {
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+
+.palette-box:nth-child(2) .palette-small .color-2,
+.palette-box:nth-child(2) .palette-small .color-6 {
+    align-self: flex-end;
+}
+
+.palette-box:nth-child(2) .palette-small .color-1,
+.palette-box:nth-child(2) .palette-small .color-4 {
+    align-self: flex-start;
+}
+
+/* 3-й квадрат */
+.palette-box:nth-child(3) .palette-small {
+    justify-content: space-between;
+}
+
+.palette-box:nth-child(3) .part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 4-й квадрат */
+.palette-box:last-child .palette-small {
+    justify-content: space-between;
+}
+
+.palette-box:last-child .palette-small .part:first-child {
+    display: flex;
+}
+
+.palette-box:last-child .palette-small .part:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
