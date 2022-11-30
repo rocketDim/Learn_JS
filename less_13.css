@@ -5,4 +5,13 @@
     align-items: center;
 }
 
-.tag-list {}
+.tag-list {
+    display: grid;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 15px;
+}
+
+.tag {
+    margin: 5px;
+}
