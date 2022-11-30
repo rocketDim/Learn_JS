@@ -1,12 +1,12 @@
 .movie {
     display: grid;
     grid-template-columns: 1fr 235px;
-    margin-bottom: 10px;
     align-items: center;
+    margin-bottom: 10px;
 }
 
-.tag-list {
-    display: grid;
+.tags-list {
+    display: flex;
     flex-wrap: wrap;
     margin: 0;
     padding: 15px;
@@ -14,4 +14,9 @@
 
 .tag {
     margin: 5px;
+}
+
+.tag-link {
+    display: block;
+    padding: 5px 10px;
 }
