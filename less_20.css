@@ -1,0 +1,51 @@
+.tabs-list {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    margin-bottom: 15px;
+    align-self: flex-start;
+}
+
+.tab:last-child {
+    margin: 0;
+}
+
+.active {
+    align-self: flex-end;
+}
+
+.content {
+    width: 280px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    order: -1;
+}
+
+.author {
+    order: -1;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.message {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
