@@ -15,7 +15,7 @@
 
 .name {
     grid-area: name;
-    margin-top: 10px;
+    align-self: end;
 }
 
 .avatar {
