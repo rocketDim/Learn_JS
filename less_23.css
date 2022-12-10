@@ -1,0 +1,58 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+td {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.column-1 {
+    text-align: left;
+}
+
+.column-2 {
+    text-align: center;
+}
+
+.column-3 {
+    text-align: right;
+}
+
+.row-1 {
+    background-color: darkcyan;
+    color: white;
+}
+
+.row-2 {
+    background-color: lightyellow;
+}
+
+.row-3 {
+    background-color: lightyellow;
+}
+
+.cell-higth {
+    background-color: lightblue;
+}
